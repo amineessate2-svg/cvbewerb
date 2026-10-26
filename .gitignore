@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.pem
+*.key
+*.cert
+
+# Uploaded User Files & Data Backups
+data/cv/*
+!data/cv/.gitkeep
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

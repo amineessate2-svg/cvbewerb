@@ -1,0 +1,29 @@
+{
+  "name": "auto-cv-bulk-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "scraper": "node scraper/ausbildung_scraper.cjs",
+    "scraper:gmaps": "node scraper/gmaps_scraper.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.0.14",
+    "sanitize-html": "^2.18.1",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}
